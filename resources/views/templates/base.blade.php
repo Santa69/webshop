@@ -55,7 +55,7 @@
                 </div><!--/.nav-collapse -->
               </div>
             </nav>
-          <div class="alert alert-success">
+
 
             {{-- <div class="alert alert-success" role="alert">
                     <strong>Well done!</strong> You successfully read this important alert message.
@@ -66,7 +66,6 @@
              @else
                <span>Anonyme</span>
              @endif
-           </div>
 
     </header>
     <div class="container" id="titrebody">@yield('content')</div>

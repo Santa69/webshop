@@ -42,58 +42,23 @@ footer a {
   margin-right: 20px;
 }
 
-table#product-table {
-    border-collapse: collapse;
-    width: 100%;
-    color: white;
-}
-
-table#product-table th {
-    padding: 8px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-    color: white;
-}
-
-#product-table td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-  color: white;
-}
-
-#product-table tr:hover {
-  background-color:rgba(0, 0, 0, 0.25);
-}
-
-div#nomproduit.container {
-  height: 50%;
-  text-align: center;
-}
-div#IMG.container {
-  height: 50%;
-}
-
-
-#prix {
-  float: right;
-  height: 20%;
-}
-
-#desc {
-  float:left;
-  height: 30%;
-}
-
-table#prix {
-  margin-right: 30px;
-  color: white;
-
-}
-
 button {
   float: right;
-margin-top: -30px;
-margin-right: -50px;
+  margin-top: 10px;
 
+}
+
+/*MAGASIN*/
+
+.single-product {
+  height: 50%;
+}
+
+.single-product img {
+  height: 50%;
+}
+
+.single-product p {
+  height: 50%;
+  color: white;
 }
